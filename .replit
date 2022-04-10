@@ -1,5 +1,5 @@
 run = ["bash", "main.sh"]
-
+language = "bash"
 entrypoint = "main.sh"
 
 [env]
