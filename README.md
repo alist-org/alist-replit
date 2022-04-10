@@ -6,9 +6,6 @@ The fastest way to deploy the alist to `repl.it` is to click the `run on repl.it
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/alist-org/alist-replit" style="height: 40px; width: 190px;" />
 </a>
 
-
-Also, you can fork this [repl](https://repl.it/@Xhofe/alist) directly.
-
 ## Database
 You may need to use another remote MySQL/Postgres database as instance restarts will lose data. Some Free MySQL/Postgres Databases:
 
