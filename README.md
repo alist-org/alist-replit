@@ -7,7 +7,7 @@ The fastest way to deploy the alist to `repl.it` is to click the `run on repl.it
 </a>
 
 ## Database
-You may need to use another remote MySQL/Postgres database as instance restarts will lose data. Some Free MySQL/Postgres Databases:
+You may need to use another remote MySQL/Postgres database as local sqlite3 is public for everyone. Some Free MySQL/Postgres Databases:
 
 - https://db4free.net/
 - https://remotemysql.com/
@@ -32,6 +32,7 @@ How to change the database?
 >   "DB_SLL_MODE":"true"
 > }
 > ```
+> The secrets is private so you don't need to worry about leaking your data.
 
 ## Password
 The initial password is randomly generated, and you can get it by checking the console logs.
