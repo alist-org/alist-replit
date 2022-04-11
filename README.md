@@ -19,7 +19,7 @@ You may need to use another remote MySQL/Postgres database as local sqlite3 is p
 - http://cloud.yugabyte.com/
 
 How to change the database?
-> Switch to `secrets` tab then edit `System environment variables`.You also can edit raw json:
+> Switch to `secrets` tab then edit `System environment variables`.You can also edit raw json:
 > ```json
 > {
 >   "DB_TYPE":"mysql",
