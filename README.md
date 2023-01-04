@@ -34,5 +34,19 @@ How to change the database?
 > ```
 > The secrets is private so you don't need to worry about leaking your data.
 
+### Sample Config https://bit.io/
+> ```json
+> {
+>   "DB_TYPE": "postgres",
+>   "DB_HOST": "db.bit.io",
+>   "DB_PORT": "5432",
+>   "DB_USER": "user",
+>   "DB_PASS": "password",
+>   "DB_NAME": "user/alist",
+>   "DB_TABLE_PREFIX": "alist_",
+>   "DB_SSL_MODE": "require"
+> }
+> ```
+
 ## Password
 The initial password is randomly generated, and you can get it by checking the console logs.
