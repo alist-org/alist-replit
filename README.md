@@ -29,7 +29,7 @@ How to change the database?
 >   "DB_PASS":"password",
 >   "DB_NAME":"alist",
 >   "DB_TABLE_PREFIX":"alist_",
->   "DB_SLL_MODE":"true"
+>   "DB_SSL_MODE":"true"
 > }
 > ```
 > The secrets is private so you don't need to worry about leaking your data.
