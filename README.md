@@ -50,3 +50,6 @@ How to change the database?
 
 ## Password
 The initial password is randomly generated, and you can get it by checking the console logs.
+
+## Aria2
+The aira2 not enabled by default, uncomment the "aria2_setup" line in main.sh to enable it
