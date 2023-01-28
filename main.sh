@@ -10,7 +10,7 @@ sed -i 's|/root/||g' ./aria2.conf
 touch aria2.session
 ./tracker.sh
 cd ..
-aria2c --conf-path=.aria2/aria2.conf -Z
+nohup aria2c --conf-path=.aria2/aria2.conf -Z  &
 }
 
 # rm -rf alist* #Uncomment this line to update
