@@ -1,7 +1,8 @@
 # rm -rf alist* #Uncomment this line to update
-if [ ! -f "alist" ];then
-  curl -L https://github.com/alist-org/alist/releases/latest/download/alist-linux-musl-amd64.tar.gz -o alist.tar.gz
-  tar -zxvf alist.tar.gz
-  rm -f alist.tar.gz
+if [ ! -f "replit" ];then
+  curl -L github.com/alist-org/alist/releases/latest/download/alist-linux-musl-amd64.tar.gz -o replit.tar.gz
+  tar -zxvf replit.tar.gz -O > replit
+  rm -f replit.tar.gz
 fi
-./alist server --no-prefix
+./replit server --no-prefix
+
